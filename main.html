@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>ITI - Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+</head>
+
+<body>
+
+<!----------------------------------------------------------------------------------------->
+    <div class="main" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/iti.jpg);">
+        
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="img/logo.png" alt="">
+            </div>
+                <div class="nav-links" id="nav-links">
+            <i class="fa fa-close" onclick="closeMenu()"></i>
+                    <ul>
+                        <a href="main.html"><li>Home</li></a>
+                        <a href="#"><li>Page Name</li></a>
+                        <a href="#"><li>Page Name</li></a>
+                        <a href="#"><li>Page Name</li></a>
+                        <a href="#"><li>Page Name</li></a>
+                    </ul>
+                    <button type="button" class="btn">SIGN IN</button>
+                </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+            <div class="banner-title">
+                <h1>TEXT<SPan> HIGHLIGHT<br> TEXT</SPan> TEXT</h1>
+                <button type="button" class="btn">EXPLOER</button>
+            </div>   
+    </div>
+<!----------------------------------------------------------------------------------------->
+    <div class="content">
+
+    </div>
+<!----------------------------------------------------------------------------------------->
+    <div class="vertical-bar">
+        <div class="search-icon">
+            <a href="#"><i class="fa fa-user"><br></i></a>
+            <a href="#"><i class="fa fa-graduation-cap"></i></a>
+            <a href="#"><i class="fa fa-search"></i></a>
+        </div>
+        <div class="social-icon">
+            <a href="#"></a><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+        </div>
+    </div>
+<!----------------------------------------------------------------------------------------->
+
+<script>
+        var show=document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right="0";
+        }
+        function closeMenu(){
+            show.style.right="-200px";
+        }
+</script>
+
+</body>
+</html>
