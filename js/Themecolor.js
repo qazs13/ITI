@@ -63,7 +63,7 @@ document.getElementById('vertical-bar-color').addEventListener("input",function(
 document.getElementById('background-color').addEventListener("input",function(event){
     Color.backgroundcolor = event.srcElement.value;
     console.log(Color.backgroundcolor)
-    document.getElementById('main').style.backgroundImage = 'linear-gradient(rgba(0,0,0,0.8),'+Color.backgroundcolor+'),url("/home/awalid/Documents/releases/finalrelease/project03/img/iti.jpg")';
+    document.getElementById('main').style.backgroundImage = 'linear-gradient(rgba(0,0,0,0.8),'+Color.backgroundcolor+'),url("../img/iti.jpg")';
 })
 
 
