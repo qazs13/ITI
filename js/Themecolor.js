@@ -1,5 +1,9 @@
 var counter = true;
 var showOrHide = document.getElementById("theme");
+document.getElementById('body').addEventListener("click",function(){
+    showOrHide.style.display = "none";
+    counter = true;
+  })  
   document.getElementById('nav').addEventListener("click",function(){
     showOrHide.style.display = "none";
     counter = true;

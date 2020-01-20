@@ -74,6 +74,277 @@
     background-color: rgba(0,0,0,0.8); /* Green */
     color: white;
 }
+/*-------------------------------------------------------------------*/
+.banner-title{
+    margin-top: 5px;
+    color: #fff;
+    height: 570px;
+}
+
+.banner-title h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.banner-title h1 span{
+    color: rgb(231, 70, 70);
+}
+
+.banner-title .mainMenu
+{
+    height: 85%;
+
+}
+
+
+.banner-title .profilePicture
+{
+    width: 340px;
+    height: 340px;
+    display: inline-block;
+}
+
+.banner-title .profilePicture .Picture
+{
+    width: 170px;
+    height: 170px;
+    margin: 90px 0px 10px 130px;
+}
+
+.banner-title .profilePicture input[type="file"]
+{
+    border-radius: 25px;
+    font: 25px arial;
+    border: 2px red solid;
+    margin-left: 140px;
+    width: 150px;
+}
+
+.banner-title .profilePicture input[type="file"]:hover
+{
+    margin-left: 140px;
+    width: 150px;
+    cursor: pointer;
+    border: 2px black solid;
+}
+
+.banner-title .mainMenu .mainInfo
+{
+    display: block;
+}
+
+.banner-title .mainMenu .mainInfo .form
+{
+    width: 1000px;
+    height: 325px;
+    border-top: red 1px solid;
+    border-bottom: red 1px solid;
+    position: absolute;
+    top: 280px;
+    left: 380px;
+}
+
+
+
+.banner-title .mainMenu .mainInfo .form .fromData
+{
+    background-color: rgba(0, 0, 0, 0.185);
+    width: auto;
+    height: 80px;
+    line-height: 80px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+    display: block;
+    float: left;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+}
+
+.banner-title .mainMenu .mainInfo .form .fromData:hover
+{
+    border-top: red 1px solid;
+    border-bottom: red 1px solid;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.banner-title .mainMenu .mainInfo .form .fromData div
+{
+    width: auto;
+    height: 70px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font: 25px arial white;
+}
+
+
+.banner-title .header
+{
+    height: 100px;
+}
+.banner-title .header span
+{
+    font: 35px bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+.banner-title .header span .spanName
+{
+    display: inline;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner-title .header span .spanName:hover
+{
+    color: red;
+    cursor: pointer;
+}
+/*-------------------------------------------------------------------*/
+
+.banner-title .mainMenu .input-info 
+{
+    display: none;
+}
+
+.banner-title .mainMenu .input-info .formInput
+{
+    width: 1000px;
+    height: 260px;
+    border-top: red 1px solid;
+    border-bottom: red 1px solid;
+    position: absolute;
+    top: 310px;
+    left: 380px;
+}
+
+
+.banner-title .mainMenu .input-info .formInput .fromData
+{
+    background-color: rgba(0, 0, 0, 0.185);
+    width: 298px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 20px;
+    display: block;
+    float: left;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    line-height: 60px;
+}
+
+
+.banner-title .mainMenu .input-info .formInput .fromData label
+{
+    font: 25px white arial;
+    margin-left: 5px;
+}
+
+
+.banner-title .mainMenu .input-info .formInput .fromData input[type="text"]
+{
+    width: 140px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+
+.banner-title .mainMenu .input-info .formInput .fromData input[type="date"]
+{
+    width: 185px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+
+.banner-title .mainMenu .input-info .formInput .fromSubmit
+{
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    margin-left: 155px;
+    display: block;
+    float: left;
+}
+
+
+.banner-title .mainMenu .input-info .formInput .fromSubmit input[type="submit"]
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+
+
+.banner-title .mainMenu .input-info .formInput .fromSubmit input[type="submit"]:hover
+{
+    background-color: red;
+    color: white;
+}
+
+
+.banner-title .input-info .error
+{
+    display: none;
+    height: 33px;
+    width: auto;
+    position: absolute;
+    right: 90px; 
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 15px;
+    border: 1px red solid;
+}
+.banner-title .input-info .error table
+{
+    height: auto;
+    line-height: 10px;
+}
+
+
+.banner-title .input-info .error table tr td
+{
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    background-color: rgba(153, 35, 35, 0);
+    font: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    color: red;
+}
+.banner-title .input-info .error table tr td div
+{
+    height: 20px;
+    margin-top: 10px;
+}
+
+.banner-title .input-info .error table tr td:hover
+{
+    background-color: rgb(255, 57, 57);
+    color: white;
+
+}
 
 
 /*-------------------------------------------------------------------*/
