@@ -3,12 +3,9 @@
     <title>ITI - Management System</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
-
 <body>
-
 <!----------------------------------------------------------------------------------------->
     <div class="main" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/iti.jpg);">
         
@@ -35,8 +32,66 @@
             </div>   
     </div>
 <!----------------------------------------------------------------------------------------->
-    <div class="content">
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="service_box">
+                    <div class="service_icon">
+                        <i class="fa fa-archive"></i>
+                    </div>
+                    <h3>Evaluation</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <br>
+                    <button type="button" id="myBtn1">EXPLOER</button>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="service_box">
+                    <div class="service_icon">
+                        <i class="fa fa-list"></i>
+                    </div>
+                    <h3>Schedule</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <br>
+                    <button type="button" id="myBtn2">EXPLOER</button>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="service_box">
+                    <div class="service_icon">
+                        <i class="fa fa-book"></i>
+                    </div>
+                    <h3>Grades</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <br>
+                    <button type="button" id="myBtn3">EXPLOER</button>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="service_box">
+                    <div class="service_icon">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <h3>profile</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ducimus Lorem ipsum dolor sit amet.</p>
+                    <br>
+                    <button type="button" id="myBtn4">EXPLOER</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------------------------------------------------------------------------------->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Information Technology Institute</h2>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, ducimus Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
     </div>
 <!----------------------------------------------------------------------------------------->
     <div class="vertical-bar">
@@ -53,16 +108,6 @@
         </div>
     </div>
 <!----------------------------------------------------------------------------------------->
-
-<script>
-        var show=document.getElementById("nav-links");
-        function showMenu(){
-            show.style.right="0";
-        }
-        function closeMenu(){
-            show.style.right="-200px";
-        }
-</script>
-
+<script src="js/main.js"></script>
 </body>
 </html>
