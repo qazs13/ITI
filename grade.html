@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<head>
+    <title>Grades</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="grades.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="logo.png" alt="">
+            </div>
+                <div class="nav-links" id="nav-links">
+            <i class="fa fa-close" onclick="closeMenu()"> </i>
+                    <ul>
+                        <a href="main.html"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Offerings</li></a>
+                        <a href="#"><li>Partnerships</li></a>
+                        <a href="#"><li>Services</li></a>
+                        <a href="#"><li>News Room</li></a>
+                    </ul>
+                    <button type="button" class="btn">SIGN IN</button>
+                </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+            <div class="banner-title">
+                <h1>Courses Grades</h1>
+                <button type="button" class="btn">
+                    <a href="#anchor-name">
+                    EXPLOER
+                    </a>
+                </button>
+            </div>
+
+            <div class="vertical-bar">
+                <div class="search-icon">
+                    <i class="fa fa-th-list"></i>
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="social-icon">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                </div>
+            </div>
+    </div>
+
+
+<div class="page-container" id="anchor-name">
+    <div class="content"  >
+        <div class="grades"  >
+            <h5> Courses Grades</h5>
+            
+                <table class="maintable" >
+                    <thead>
+                        <tr>
+                            <td >course</td>
+                            <td> grade</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="rowofsubject" id=0> Advanced Presentation Skills</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td class="rowofsubject" id=1>Computer Network Fundamentals</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td class="rowofsubject" id=2>Introduction To Programming</td>
+                            <td> A</td>
+                        </tr>
+                        <tr>
+                            <td class="rowofsubject"  id=3>Operating System Fundamentals</td>
+                            <td>B</td> 
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+    </div>
+    <div class="adv overlay suj" style="display: none" >
+        <h4 >Advanced Presentation Skills </h4>
+        <table id="suj" >
+   
+            <tr >
+                <td>Total</td>
+                <td>90.00  <sub> / 100.00</sub></td>
+            </tr >
+            <tr>
+                <td>Weighted Total</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td> Class activities </td>
+                <td>30.00 <sub> / 30.00</sub></td>
+            </tr>
+            <tr>
+                <td>Final Presentation</td>
+                <td>60.00 <sub> / 70.00</sub></td>
+            </tr>
+        </table>
+    </div>
+    <div  style="display: none" class="adv overlay suj" >
+        <h4>Computer Network Fundamentals</h4>
+        <table  id="suj">
+            <tr >
+                <td>Total</td>
+                <td>87.00  <sub> / 100.00</sub></td>
+            </tr >
+            <tr>
+                <td>Weighted Total</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td> Lab1 </td>
+                <td>10.00 <sub> / 10.00</sub></td>
+            </tr>
+            <tr>
+                <td> Lab2 </td>
+                <td>9.00 <sub> / 10.00</sub></td>
+            </tr>
+            <tr>
+                <td> Lab3 </td>
+                <td>8.00 <sub> / 10.00</sub></td>
+            </tr>
+            <tr>
+                <td>Final Exame</td>
+                <td>60.00 <sub> / 70.00</sub></td>
+            </tr>
+        </table>
+    </div>
+    <div  style="display: none"  class="adv overlay suj" >
+        <h4>Introduction To Programming</h4>
+        <table  id="suj">
+            <tr >
+                <td>Total</td>
+                <td>85.00  <sub> / 100.00</sub></td>
+            </tr >
+            <tr>
+                <td>Weighted Total</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td> Lab1 </td>
+                <td>8.00 <sub> / 10.00</sub></td>
+            </tr>
+            <tr>
+                <td> Lab2 </td>
+                <td>9.00 <sub> / 10.00</sub></td>
+            </tr>
+            <tr>
+                <td> Lab3 </td>
+                <td>8.00 <sub> / 10.00</sub></td>
+            </tr>
+            <tr>
+                <td>Final Exame</td>
+                <td>60.00 <sub> / 70.00</sub></td>
+            </tr>
+        </table>
+    </div>
+    <div    style="display: none" class="adv overlay suj">
+        <h4>Operating System Fundamentals</h4>
+        <table  id="suj">
+            <tr >
+                <td>Total</td>
+                <td>77.00  <sub> / 100.00</sub></td>
+            </tr >
+            <tr>
+                <td>Weighted Total</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td> Quiz 1 </td>
+                <td>7.00 <sub> / 10.00</sub></td>
+            </tr>
+            <tr>
+                <td> Quiz 2 </td>
+                <td>9.00 <sub> / 10.00</sub></td>
+            </tr>
+            <tr>
+                <td> Quiz 3 </td>
+                <td>8.00 <sub> / 10.00</sub></td>
+            </tr>
+            <tr>
+                <td>Final Exame</td>
+                <td>53.00 <sub> / 70.00</sub></td>
+            </tr>
+        </table>
+    </div>
+    <footer class="footer"></footer>
+  
+</div>>
+
+    <script src="grades.js">
+       
+    </script>
+
+
+
+
+    
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
