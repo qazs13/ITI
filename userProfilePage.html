@@ -2,6 +2,7 @@
 <head>
     <title>ITI - User Profile</title>
     <link rel="stylesheet" href="css/amrStyle.css">
+    <link rel="icon" href="./img/iti.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
@@ -24,7 +25,7 @@
                         <a href="#"><li>Page Name</li></a>
                         <a href="#"><li>Page Name</li></a>
                     </ul>
-                    <button type="button" class="btn">SIGN IN********</button>
+                    <button type="button" class="btn">SIGN OUT</button>
                 </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </div>
@@ -68,7 +69,73 @@
                                     <div id="email">******@email.com</div>
                                 </div>
                             </form>
-                        
+                        </div>
+                        <div class="input-info" id="inputInfo">
+                            <form class="formInput">
+                                <div class="fromData" id="ftName">
+                                    <label>First Name</label>
+                                    <input type="text" name="student fname" id="firstName" placeholder="First Name">
+                                </div>
+                                <div class="fromData" id="mName">
+                                    <label>Middle Name</label>
+                                    <input type="text" name="student mname" id="middleName" placeholder="Middle Name">
+                                </div>
+                                <div class="fromData" id="lName">
+                                    <label>Last Name</label>
+                                    <input type="text" name="student name" id="lastName" placeholder="Last Name">
+                                </div>
+                                <div class="fromData">
+                                    <label>Track</label>
+                                    <input type="text" name="track" id="trackName" placeholder="Track Name">
+                                </div>
+                                <div class="fromData">
+                                    <label>Birthdate</label>
+                                    <input type="date" name="birthdate" id="brithdateName">
+                                </div>
+                                <div class="fromData">
+                                    <label>Address</label>
+                                    <input type="text" name="address" id="addressName" placeholder="Address">
+                                </div>
+                                <div class="fromData">
+                                    <label>Qualification</label>
+                                    <input type="text" name="qualification" id="qualificationName" placeholder="Qualification">
+                                </div>
+                                <div class="fromData">
+                                    <label>Email</label>
+                                    <input type="text" name="email" id="emailName" placeholder="Email Address">
+                                </div>
+                                <div class="fromSubmit">
+                                    <input type="submit" value="Edit" id="editedForm">
+                                </div>
+                            </form>
+                            <div class="error row" id="error">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div id="1"></div>
+                                        </td>
+                                        <td>
+                                            <div id="2"></div>
+                                        </td>
+                                        <td>
+                                            <div id="3"></div>
+                                        </td>
+                                        <td>
+                                            <div id="4"></div>
+                                        </td>
+                                        <td>
+                                            <div id="5"></div>
+                                        </td>
+                                        <td>
+                                            <div id="6"></div>
+                                        </td>
+                                        <td>
+                                            <div id="7"></div>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </div>
                         </div>
                     </div>
             </div>   
@@ -114,6 +181,17 @@
         </div>
     </div>
 <!----------------------------------------------------------------------------------------->
+
+<script>
+        var show=document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right="0";
+        }
+        function closeMenu(){
+            show.style.right="-200px";
+        }
+</script>
 <script src="./js/Themecolor.js"></script>
+<script src="./js/profile-editor.js"></script>
 </body>
 </html>
